@@ -1,6 +1,6 @@
 name: Node CI
 
-on: [poll]
+on: push
 
 jobs:
   build:
