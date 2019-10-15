@@ -1,0 +1,10 @@
+name: A workflow to start my Node server
+on: push
+
+jobs:
+  build:
+    name: Hello world server
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: actions/checkout@master
+    - uses: ./action-a
