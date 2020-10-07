@@ -7,6 +7,12 @@ var server = http.createServer(function(request, response) {
 
 });
 
+  // if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
+      /*
+        var apiKey = "myApiKeyXXXX123456789";
+        $('#input_apiKey').val(apiKey);
+      */
+
 var port = 80;
 server.listen(port);
 
